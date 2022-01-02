@@ -1,0 +1,14 @@
+{
+  "name": "prisma_io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JanUrbanNeto/prisma_io.git",
+  "author": "JAN URBAN NETO <jan.urbanneto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.7.0",
+    "prisma": "^3.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
