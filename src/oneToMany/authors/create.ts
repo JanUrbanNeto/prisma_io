@@ -7,7 +7,7 @@ async function main() {
    const result = await prisma.authors.createMany({
       data: [
          {
-            name: "Eric singer",
+            name: "Eric Singer",
          },
          {
             name: "Paul Stanley"
