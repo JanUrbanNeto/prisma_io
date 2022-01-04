@@ -3,11 +3,13 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-   // SELECT *FROM COURSES LIMIT 1
-   const course = await prisma.courses.findFirst({
-      take: -1,
+   const courses = await prisma.courses.findMany({
+      include: {
+         teacher: true
+      }
    });
-   console.log(course)
+
+   console.log(courses)
 }
 
 main();
