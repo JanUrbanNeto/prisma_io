@@ -12,10 +12,11 @@ async function main() {
          teacher: {
             connectOrCreate: {
                where: {
-                  name: "Jan Dinirso"
+                  //ele verifica se existe o professor na base de dados antes
+                  name: "Dinirso de Tal"
                },
                create: {
-                  name: "Jan Dinirso"
+                  name: "Dinirso de Tal"
                }
             }
          }

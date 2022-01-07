@@ -7,7 +7,7 @@ async function main() {
       data: {
          duration: 220,
          name: "Curso de ReactJS",
-         description: "Curso pica das galaxias de ReactJS para Frontend",
+         description: "Curso fora de série de ReactJS para Frontend",
          fk_id_teacher: "8b949588-bbe6-4fbb-98db-451c8cb698e4"
       }
    });
